@@ -12,11 +12,15 @@ public class App {
     public static void main(String[] args) {
         @SuppressWarnings(UNUSED)
         DemoPattern demo = new DemoPattern();
-        demo.executeDemo(DemoType.SingleTon);
-        demo.executeDemo(DemoType.Factory);
+        // demo.executeDemo(DemoType.SingleTon);
+        // demo.executeDemo(DemoType.Factory);
+        // demo.executeDemo(DemoType.Builder);
+        demo.execute_with_interface();
         /**
          * Enum class with Planet example
          */
-        EnumClass.executeEnumClass(175);
+
+        // EnumClass.executeEnumClass(175);
     }
+
 }
